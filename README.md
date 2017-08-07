@@ -31,9 +31,9 @@ Le contrôle IP permet d'améliorer la sécurité en limitant l'accès à votre 
 Exemple de script pour l'envoi d'un simple SMS :
 
     <?php
-    require_once("php-client/SwaggerClient-php/autoload.php");
-    $api_instance = new Swagger\Client\Api\SmsApi();
-    $smsrequest = new \Swagger\Client\Model\SmsUniqueRequest(); 
+    require_once("Isendpro/autoload.php");
+    $api_instance = new Isendpro\Api\SmsApi();
+    $smsrequest = new Isendpro\Model\SmsUniqueRequest(); 
     $smsrequest["keyid"] ="ICI_CLE_API";
     $smsrequest["num"]="ICI_NUMERO_TELEPHONE";
     $smsrequest["sms"]="Ceci est un test avec un envoi unique!";

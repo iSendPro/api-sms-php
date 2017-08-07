@@ -1,8 +1,8 @@
 <?php
-require_once('php-client/SwaggerClient-php/autoload.php');
+require_once('Isendpro/autoload.php');
 include("keyid.php");
-$api_instance = new Swagger\Client\Api\RepertoireApi();
-$repertoirecreaterequest = new \Swagger\Client\Model\REPERTOIREcreaterequest(); // \Swagger\Client\Model\REPERTOIREcreaterequest | Creation repertoire
+$api_instance = new Isendpro\Api\RepertoireApi();
+$repertoirecreaterequest = new Isendpro\Model\REPERTOIREcreaterequest();
 $repertoirecreaterequest["keyid"]=$keyid;
 $repertoirecreaterequest["repertoire_edit"]="create";
 $repertoirecreaterequest["repertoire_nom"]="Prospects interessants";
@@ -17,8 +17,8 @@ try {
     echo json_encode($reponse_erreur);
 }
 echo "nouveaurepertoire=".$id_nouveau_repertoire;
-$api_instance = new Swagger\Client\Api\RepertoireApi();
-$repertoiremodifrequest = new \Swagger\Client\Model\REPERTOIREmodifrequest(); // \Swagger\Client\Model\REPERTOIREmodifrequest | Requete de creation repertoire
+$api_instance = new Isendpro\Api\RepertoireApi();
+$repertoiremodifrequest = new Isendpro\Model\REPERTOIREmodifrequest(); 
 
 $repertoiremodifrequest["keyid"]=$keyid;
 $repertoiremodifrequest["repertoire_edit"]="add";

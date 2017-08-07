@@ -1,6 +1,6 @@
 <?php
-require_once("php-client/SwaggerClient-php/autoload.php");
-$api_instance = new Swagger\Client\Api\SetListeNoireApi();
+require_once("Isendpro/autoload.php");
+$api_instance = new Isendpro\Api\SetListeNoireApi();
 include("keyid.php");
 $setliste_noire='1'; // string |
 $num = "0600123456"; // string | numéro de mobile à insérer en liste noire

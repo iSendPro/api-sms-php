@@ -1,7 +1,7 @@
 <?php
-require_once("php-client/SwaggerClient-php/autoload.php");
-$api_instance = new Swagger\Client\Api\SmsApi();
-$smsrequest = new \Swagger\Client\Model\SmsUniqueRequest(); // \Swagger\Client\Model\SMSRequest | sms request
+require_once("Isendpro/autoload.php");
+$api_instance = new Isendpro\Api\SmsApi();
+$smsrequest = new Isendpro\Model\SmsUniqueRequest(); // \Swagger\Client\Model\SMSRequest | sms request
 include("keyid.php");
 $smsrequest["keyid"]=$keyid;
 $smsrequest["num"]="0671820318";

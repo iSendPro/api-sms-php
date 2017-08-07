@@ -1,7 +1,7 @@
 <?php
-require_once('php-client/SwaggerClient-php/autoload.php');
-$api_instance = new Swagger\Client\Api\HlrApi();
-$hlrrequest = new \Swagger\Client\Model\HLRrequest(); // \Swagger\Client\Model\HLRrequest | Clee de compte sms low cost
+require_once('Isendpro/autoload.php');
+$api_instance = new Isendpro\Api\HlrApi();
+$hlrrequest = new Isendpro\Model\HLRrequest();
 $hlrrequest["get_hlr"]="1";
 $hlrrequest["num"]=["0671820318"];
 include("keyid.php");

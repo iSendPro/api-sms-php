@@ -1,8 +1,8 @@
 <?php
 include("keyid.php");
-require_once("php-client/SwaggerClient-php/autoload.php");
-$api_instance = new Swagger\Client\Api\ComptageApi();
-$comptagerequest = new \Swagger\Client\Model\ComptageRequest(); // \Swagger\Client\Model\ComptageRequest | sms request
+require_once("Isendpro/autoload.php");
+$api_instance = new Isendpro\Api\ComptageApi();
+$comptagerequest = new Isendpro\Model\ComptageRequest(); // \Swagger\Client\Model\ComptageRequest | sms request
 $comptagerequest["keyid"]=$keyid;
 $comptagerequest["num"]="0671820318";
 $comptagerequest["sms"]="Ceci est un test avec un envoi unique à €! (comptage)";

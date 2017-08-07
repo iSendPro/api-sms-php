@@ -1,8 +1,8 @@
 <?php
-require_once("php-client/SwaggerClient-php/autoload.php");
-$api_instance = new Swagger\Client\Api\CreditApi();
+require_once("Isendpro/autoload.php");
+$api_instance = new Isendpro\Api\CreditApi();
 include("keyid.php");
-$credit = "2"; // string | Type de reponse demandée, 1 pour euro et 2 pour messages
+$credit = "2";
 
 try {
     $result = $api_instance->getCredit($keyid, $credit);
