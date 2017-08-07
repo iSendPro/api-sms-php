@@ -5,14 +5,15 @@
         "swagger",
         "php",
         "sdk",
-        "api"
+        "api",
+        "sms"
     ],
     "homepage": "http://swagger.io",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Swagger and contributors",
-            "homepage": "https://github.com/swagger-api/swagger-codegen"
+            "name": "Isendpro",
+            "homepage": "https://isendpro.com"
         }
     ],
     "require": {
