@@ -85,7 +85,6 @@ Class | Method | HTTP request | Description
 *DelListeNoireApi* | [**delListeNoire**](docs/Api/DelListeNoireApi.md#dellistenoire) | **POST** /dellistenoire | Ajoute un numero en liste noire
 *GetListeNoireApi* | [**getListeNoire**](docs/Api/GetListeNoireApi.md#getlistenoire) | **POST** /getlistenoire | Retourne le liste noire
 *HlrApi* | [**getHlr**](docs/Api/HlrApi.md#gethlr) | **POST** /hlr | Vérifier la validité d&#39;un numéro
-*KeywordApi* | [**keywordEdit**](docs/Api/KeywordApi.md#keywordedit) | **GET** /keyword | Deposer ou supprimer un mot clé
 *RepertoireApi* | [**repertoire**](docs/Api/RepertoireApi.md#repertoire) | **PUT** /repertoire | Gestion repertoire (modification)
 *RepertoireApi* | [**repertoireCrea**](docs/Api/RepertoireApi.md#repertoirecrea) | **POST** /repertoire | Gestion repertoire (creation)
 *SetListeNoireApi* | [**setListeNoire**](docs/Api/SetListeNoireApi.md#setlistenoire) | **POST** /setlistenoire | Ajoute un numero en liste noire
@@ -108,8 +107,6 @@ Class | Method | HTTP request | Description
  - [HLRReponseEtat](docs/Model/HLRReponseEtat.md)
  - [HLRReponseEtatEtat](docs/Model/HLRReponseEtatEtat.md)
  - [HLRrequest](docs/Model/HLRrequest.md)
- - [KeywordResponse](docs/Model/KeywordResponse.md)
- - [KeywordResponseEtat](docs/Model/KeywordResponseEtat.md)
  - [LISTENOIREReponse](docs/Model/LISTENOIREReponse.md)
  - [LISTENOIREReponseEtat](docs/Model/LISTENOIREReponseEtat.md)
  - [LISTENOIREReponseEtatEtat](docs/Model/LISTENOIREReponseEtatEtat.md)

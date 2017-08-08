@@ -1,19 +1,18 @@
 {
-    "name": "Isendpro/Api",
+    "name": "Isendpro/GIT_REPO_ID",
     "description": "",
     "keywords": [
         "swagger",
         "php",
         "sdk",
-        "api",
-        "sms"
+        "api"
     ],
     "homepage": "http://swagger.io",
     "license": "proprietary",
     "authors": [
         {
-            "name": "Isendpro",
-            "homepage": "https://isendpro.com"
+            "name": "Swagger and contributors",
+            "homepage": "https://github.com/swagger-api/swagger-codegen"
         }
     ],
     "require": {
