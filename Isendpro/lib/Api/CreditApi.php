@@ -137,11 +137,11 @@ class CreditApi
 
         // query params
         if ($keyid !== null) {
-            $queryParams['keyid'] = $this->apiClient->getSerializer()->toQueryValue($keyid);
+            $formParams['keyid'] = $this->apiClient->getSerializer()->toQueryValue($keyid);
         }
         // query params
         if ($credit !== null) {
-            $queryParams['credit'] = $this->apiClient->getSerializer()->toQueryValue($credit);
+            $formParams['credit'] = $this->apiClient->getSerializer()->toQueryValue($credit);
         }
 
         // for model (json/xml)
@@ -154,7 +154,7 @@ class CreditApi
         try {
             list($response, $statusCode, $httpHeader) = $this->apiClient->callApi(
                 $resourcePath,
-                'GET',
+                'POST',
                 $queryParams,
                 $httpBody,
                 $headerParams,
